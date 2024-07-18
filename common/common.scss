@@ -19,6 +19,29 @@ $max-width: 600px;
   }
 }
 
+//Banner text
+.custom-search-banner-wrap {
+    h1 {
+        color: blue; /* headline*/
+        
+        &+p {
+            color: red; /* subhead */
+        }
+    }
+    
+    .search-menu {
+        .btn.search-icon.has-search-button-text {
+            .d-icon {
+                color: orange;  /* search button icon */
+            }
+            
+            .d-button-label {
+                color: orange;  /* search button text */
+            }
+        }
+    }
+}
+
 // hide search icon from default search menu
 .search-menu.glimmer-search-menu .search-icon {
   display: none;
