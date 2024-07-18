@@ -22,10 +22,10 @@ $max-width: 600px;
 //Banner text
 .custom-search-banner-wrap {
     h1 {
-        color: blue; /* headline*/
+        color: var(--primary); /* headline*/
         
         &+p {
-            color: red; /* subhead */
+            color: var(--primary); /* subhead */
         }
     }
     
